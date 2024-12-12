@@ -1,0 +1,119 @@
+body{
+    /* background-image: url(../images/weatherPic.jpg); */
+    background: linear-gradient(to right,#00972de3, #b4af17d6);
+
+}
+
+nav{
+    height: 120px;
+}
+.navbar-brand{
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+  font-size: 40px;
+}
+.nav-link{
+    border-radius: 30px;
+    transition: border .5s;
+
+}
+.nav-link:hover{
+    border: solid 1px black;
+     ;
+}
+
+.home{
+    width:100%;
+    height:70vh;
+    background-image: url(../images/weatherPic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.home .container{
+    width:70%;
+}
+.home input{
+    border-radius: 20px;
+    height: 55px;
+}
+.home input{
+    border-radius: 20px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+}
+.home input::placeholder{
+    font-size: 15px;
+}
+.home input:focus{
+    outline: none;
+}
+
+.home .container .find-location{
+  position: relative;
+}
+.home .container .find{
+    position: absolute;
+    right: 10px;
+    top:32px;
+    width:90px;
+    height: 35px;
+    background-color: rgb(23 255 0 / 65%);
+    color: white;
+    border:none;
+    transition: background-color .4s;
+}
+.home .container .find:hover{
+    background-color:rgba(200, 255, 0, 0.929);
+}
+
+.myCurrent{
+    width:400px;
+    height: 380px;
+    background-color: #171b50c9;
+}
+.today-city{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.current-header{
+    background-color: #09113b;
+    height: 50px;
+}
+.temp{
+    font-size: 70px;
+}
+
+.days{
+    background-color: rgba(102, 208, 10, 0.258);
+}
+.forecast-city{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.container2{
+    width: 80%;
+    margin: auto;
+}
+
+.find-location{
+    position: relative;
+  }
+ .subscribeC{
+      position: absolute;
+      right: 10px;
+      top:32px;
+      width:90px;
+      height: 35px;
+      background-color: rgb(23 255 0 / 65%);
+      color: white;
+      border:none;
+      transition: background-color .4s;}
+
+ .sbcbtn:hover{
+      background-color:rgba(200, 255, 0, 0.929);
+  }
+.footer{
+    background-color:rgba(101, 125, 3, 0.119) ;
+}
